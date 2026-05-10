@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-25T09:20:36 GMT" name="Suite" finished-at="2026-02-25T09:21:19 GMT" duration-ms="43354">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginInErrorValidation()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" name="LoginInErrorValidation" class="MitPatel.Tests.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="PageFactoryActionsTest.submitOrderTest(java.util.HashMap)[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" name="submitOrderTest" class="MitPatel.Tests.PageFactoryActionsTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-02-25T09:20:36 GMT" name="Error Validation Test" finished-at="2026-02-25T09:21:05 GMT" duration-ms="28658">
+      <class name="MitPatel.Tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:36 GMT" name="launchApp" finished-at="2026-02-25T09:20:41 GMT" duration-ms="4532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="LoginInErrorValidation()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:41 GMT" name="LoginInErrorValidation" finished-at="2026-02-25T09:20:41 GMT" duration-ms="731" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at MitPatel.Tests.ErrorValidation.LoginInErrorValidation(ErrorValidation.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:41 GMT" name="tearDown" finished-at="2026-02-25T09:20:41 GMT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:41 GMT" name="launchApp" finished-at="2026-02-25T09:20:45 GMT" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="LoginInErrorValidation()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:45 GMT" name="LoginInErrorValidation" finished-at="2026-02-25T09:20:47 GMT" duration-ms="1174" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at MitPatel.Tests.ErrorValidation.LoginInErrorValidation(ErrorValidation.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:47 GMT" name="tearDown" finished-at="2026-02-25T09:20:47 GMT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:47 GMT" name="launchApp" finished-at="2026-02-25T09:20:51 GMT" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:20:51 GMT" name="ProductErrorValidation" finished-at="2026-02-25T09:21:04 GMT" duration-ms="13986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.ErrorValidation@102cec62]" started-at="2026-02-25T09:21:04 GMT" name="tearDown" finished-at="2026-02-25T09:21:05 GMT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MitPatel.Tests.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2026-02-25T09:20:36 GMT" name="Submit Order Test" finished-at="2026-02-25T09:21:19 GMT" duration-ms="43354">
+      <class name="MitPatel.Tests.PageFactoryActionsTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:20:36 GMT" name="launchApp" finished-at="2026-02-25T09:20:40 GMT" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:20:40 GMT" name="submitOrderTest" data-provider="getData" finished-at="2026-02-25T09:20:56 GMT" duration-ms="15363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=hNKurJ#!3CV.3G9, product=ZARA COAT 3, email=mitpatel807@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:20:56 GMT" name="tearDown" finished-at="2026-02-25T09:20:56 GMT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:20:56 GMT" name="launchApp" finished-at="2026-02-25T09:20:59 GMT" duration-ms="3432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:20:59 GMT" name="submitOrderTest" data-provider="getData" finished-at="2026-02-25T09:21:15 GMT" duration-ms="15405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=hNKurJ#!3CV.3G9, product=ADIDAS ORIGINAL, email=mitpatel807@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:21:15 GMT" name="tearDown" finished-at="2026-02-25T09:21:15 GMT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:21:15 GMT" name="launchApp" finished-at="2026-02-25T09:21:18 GMT" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:21:18 GMT" name="OrderHistoryTest" finished-at="2026-02-25T09:21:19 GMT" depends-on-methods="MitPatel.Tests.PageFactoryActionsTest.submitOrderTest" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MitPatel.Tests.PageFactoryActionsTest@311bf055]" started-at="2026-02-25T09:21:19 GMT" name="tearDown" finished-at="2026-02-25T09:21:19 GMT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MitPatel.Tests.PageFactoryActionsTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
